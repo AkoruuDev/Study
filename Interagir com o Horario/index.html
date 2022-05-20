@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do dia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <div id="txttitulo">
+                Que horas são?
+            </div>
+        </h1>
+    </header>
+    <section>
+        <div id="msg">
+            <div class="capture-time">
+                <div class="capture-hours">
+                    Coloque a hora aqui:
+                    <input type="number" name="txthor" id="txthor">
+                </div>
+                <div class="capture-minuts">
+                    Coloque os minutos aqui:
+                    <input type="number" name="txtmin" id="txtmin">
+                </div>
+            </div>
+            <input type="button" value="Verificar" class="bottom-verify" onclick="verificar()">
+        </div>
+        <div id="foto">
+            <img id="imagem" src="docs/null.png" alt="Foto do dia"> 
+        </div>
+    </section>
+    <footer>
+        <p>&copy; AkoruuDev</p>
+    </footer>
+    <script src="scritp.js"></script>
+</body>
+</html>
