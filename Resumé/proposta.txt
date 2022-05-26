@@ -1,0 +1,1 @@
+A proposta deste projeto era fazer uma folha de currículo tendo como alguns fatores sendo obrigatorios; separção de tags, paleta de cores e afins

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: none;
+}
+
+.resume {
+    width: 50em;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgb(228, 228, 228);
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h1, h2 {
+    color: dimgray;
+    text-align: center;
+}
+
+h3 {
+    color: steelblue;
+}
+
+.content-section {
+    padding: 2em;
+    border-top: solid steelblue;
+}
+
+strong, h4 {
+    color: steelblue;
+}
+
+#edu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
